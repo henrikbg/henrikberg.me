@@ -12,14 +12,27 @@ author:
   picture: 'https://www.gravatar.com/avatar/48e0070a939a2ea34281dc3648959d22?s=500'
   links:
     -
+      name: 'Email'
+      text: 'berg60@purdue.edu'
+      url: 'mailto:berg60@purdue.edu'
+      icon: 'fas fa-envelope'
+    -
       name: 'GitHub'
+      text: 'github.com/henrikbg'
       url: 'https://github.com/henrikbg'
       icon: 'fab fa-github'
     -
       name: 'LinkedIn'
+      text: 'linkedin.com/in/henrikbg'
       url: 'https://linkedin.com/in/henrikbg'
       icon: 'fab fa-linkedin'
     -
       name: 'Twitter'
+      text: '@henrikbg_'
       url: 'https://twitter.com/henrikbg_'
       icon: 'fab fa-twitter'
+    -
+      name: 'Keybase'
+      text: 'keybase.io/henrikbg'
+      url: 'https://keybase.io/henrikbg'
+      icon: 'fas fa-key'
