@@ -1,0 +1,5 @@
+<div class="page-social-icons">
+  {% for link in site.author.links %}
+    <a href="{{ link.url }}" social-icon-text="{{ link.text }}"><i class="{{ link.icon }}" title="{{ link.name }}"></i></a>
+  {% endfor %}
+</div>
