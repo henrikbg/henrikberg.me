@@ -1,0 +1,58 @@
+.page-container {
+  margin: 0;
+  padding: 0;
+
+  .background-image {
+    z-index: 0;
+    height: 100%;
+    background: url(/assets/images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    filter: blur(5px);
+    transform: scale(1.1);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  }
+
+  .page-content {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .author-photo {
+      max-width: 12em;
+      border-radius: 50%;
+    }
+
+    h1 {
+      font-family: "Filetto";
+      font-weight: 700;
+    }
+
+    h2 {
+      font-family: "Filetto";
+      font-weight: 400;
+    }
+
+    .page-social-icons {
+
+      a {
+        color: #282828;
+
+        i {
+          font-size: 2em;
+        }
+      }
+    }
+
+    #social-icons-target {
+      margin: 15px 0 17px 0;
+      width: 100%;
+      height: 18px;
+      justify-content: center;
+    }
+  }
+}
